@@ -3,41 +3,63 @@
 *{margin: 0;}
 
 .cabecalho{
-    background-image: linear-gradient(45deg, #000000, #242222, #cabcbcb7);
+    background-image: linear-gradient(45deg, #082031, #0b2e47, #cabcbcb7);
     background-attachment:fixed;
     color: white;
     font-family:Verdana, Tahoma, sans-serif;
+    padding: 15px;
+    padding-top: 20px;
 }
-.menu{display: flex;
+.menu{
+    display: flex;
     justify-content: right;
-    gap: 15px;
-    padding: 10px;
-   font-family: 'Courier New', Courier, monospace;
+
+}
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    padding: 8px;
+    border-radius: 10px;
+}
+.menu a:hover{
+    background-color: #f2800d;
+    color: #ffffff;
 }
 .login{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    background-color: #24222223;
-    padding: 30px;
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px;
+    gap: 40px;
+    background-color:#0b2e47;
+    padding: 40px;
+    width: 450px;
+    border-radius: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
+    box-shadow:5px 3px 20px black;
 }
 .conteudo{
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 759px;
     align-items: center;
 }
 .login input{
-    padding: 10px;    
+    padding: 15px;    
     border-radius: 10px;
     border: none;
+    background-color: #E0E0E0;
+    font-size: 16px;
 }
 .login button{
-    padding: 12px;
+    padding: 15px;
     border-radius: 30px;
+    background-color: #f2800d;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
 }
 .cadastro{
     display: flex;
@@ -45,15 +67,19 @@
     gap: 10px;
     padding: 20px;
     width: 400px;
-    background-color: #24222223;
+    background-color: #0b2e47;
     border-radius: 10px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 10px;
 }
 .contcadastro{
     display: flex;
     flex-direction: column;
     gap: 7px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .contcadastro input{
     padding: 6px;
@@ -61,7 +87,18 @@
     border: none;
 }
 .contcadastro button{
-    gap: 7px;
+    padding: 15px;
     border-radius: 30px;
-    padding: 12px;
+    background-color: #f2800d;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+}
+.seletor {
+    border-radius: 10px;
+    padding: 8px;
+}
+.title {
+margin: auto;
 }
